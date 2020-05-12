@@ -18,5 +18,7 @@ function sayHiToGrandma(string) {
     return "YES INDEED!"
   case I love you, Grandma.:
     return "I love you, too."
+  default:
+    return "I do not understand."
   }
 }

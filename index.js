@@ -17,7 +17,7 @@ var lowercase = 'hello!'
 function sayHiToGrandma(string) {
   switch (string) {
   case string === lowercase.toLowerCase:
-    return "I can't hear you!";
+    return "I can\'t hear you!";
   case string === uppercase.toUpperCase:
     return "YES INDEED!";
   case 'string === "I love you, Grandma."':

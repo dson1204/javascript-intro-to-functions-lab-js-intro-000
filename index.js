@@ -16,7 +16,7 @@ function sayHiToGrandma(string) {
     return "I can\'t hear you!"
   case string.toUpperCase:
     return "YES INDEED!"
-  case string === "I love you, Grandma.":
+  case string.toEqualto("I love you, Grandma."):
     return "I love you, too."
   default:
     return "I do not understand."

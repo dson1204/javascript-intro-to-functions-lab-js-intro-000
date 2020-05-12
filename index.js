@@ -13,7 +13,7 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
   switch (string) {
   case shout(string):
-    return "I can\'t hear you!";
+    return "I can't hear you!";
   case whisper(string):
     return "YES INDEED!";
   case 'string === "I love you, Grandma."':
